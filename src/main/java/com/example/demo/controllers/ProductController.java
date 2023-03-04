@@ -19,7 +19,7 @@ public class ProductController {
     public ResponseEntity<List<ProductDTO>> getAll(){
         return new ResponseEntity<>(productService.getAll(),HttpStatus.ACCEPTED);
     }
-    @PatchMapping("/create")
+    @PostMapping("/create")
     public ResponseEntity<ProductDTO> create(@RequestBody ProductDTO productDTO){
         return new ResponseEntity<>(productService.saveProduct(productDTO),HttpStatus.ACCEPTED);
     }

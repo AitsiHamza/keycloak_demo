@@ -19,7 +19,7 @@ public class ClientController {
     public ResponseEntity<List<ClientDTO>> getAll(){
         return new ResponseEntity<>(clientService.getAll(),HttpStatus.ACCEPTED);
     }
-    @PatchMapping("/create")
+    @PostMapping("/create")
     public ResponseEntity<ClientDTO> create(@RequestBody ClientDTO clientDTO){
         return new ResponseEntity<>(clientService.saveClient(clientDTO),HttpStatus.ACCEPTED);
     }
