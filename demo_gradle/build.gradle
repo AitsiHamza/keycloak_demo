@@ -29,6 +29,7 @@ ext {
     mapstructVersion = "1.5.3.Final"
     lombokVersion = "1.18.26"
     lombokMapstructBindingVersion = "0.2.0"
+    springCloudVersion = "2021.0.5"
 }
 
 dependencies {
@@ -55,7 +56,17 @@ dependencies {
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security
     implementation 'org.springframework.boot:spring-boot-starter-security'
 
+    //eureka
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+
 }
+//with eureka
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+
 
 tasks.named('test') {
     useJUnitPlatform()
