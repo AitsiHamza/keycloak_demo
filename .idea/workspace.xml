@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84221c2f-4c5e-4da6-b22e-ae15cab15c2f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/demo_maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/Demo1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/DemoMavenApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/controllers/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/dtos/ClientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/dtos/ClientDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/dtos/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/dtos/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/keycloak/KeycloakConfigAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/keycloak/KeycloakConfigAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/keycloak/KeycloakSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/keycloak/KeycloakSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/mappers/ClientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/mappers/ClientMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/mappers/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/mappers/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/repos/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/repos/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/repos/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/repos/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/services/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/services/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/services/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demo/services/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/java/com/example/demomaven/services/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/test/java/com/example/demo/Demo1ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/test/java/com/example/demomaven/DemoMavenApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_maven/src/test/java/com/example/demo/services/ClientServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_maven/src/test/java/com/example/demomaven/services/ClientServiceTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/demo gradle">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/demo gradle">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/demo_maven" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MdbjBdX5EOmbXYJ6KJ6z2L2unX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/a899901/Desktop/atos/projects/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "spring.configuration.checksum": "aaa7256ecd34c20168666f03fd827c83",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.demo gradle [bootRun]">
+    <configuration name="demo gradle [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demo gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="demo gradle [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demo gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo_maven" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demogradle.Demo1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoGradleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demogradle.DemoGradleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaservice.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.demo gradle [bootRun]" />
+        <item itemvalue="Gradle.demo gradle [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84221c2f-4c5e-4da6-b22e-ae15cab15c2f" name="Changes" comment="" />
+      <created>1678100540731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678100540731</updated>
+      <workItem from="1678100541558" duration="498000" />
+      <workItem from="1678101070079" duration="291000" />
+      <workItem from="1678101387101" duration="1812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
