@@ -1,3 +1,8 @@
 # keycloak_demo
 
-currently eueka is not used
+eureka
+gateway
+keycloakRestTemplate
+
+gradle(mapstruct, lombok, ...)
+maven(...)
