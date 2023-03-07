@@ -20,12 +20,12 @@ public class TestController {
     @GetMapping("/1")
     public String test1(){
         return keycloakRestTemplate
-                .getForObject("http://localhost:8085/test", String.class);
+                .getForObject("http://localhost:9999/DEMO-MAVEN/test", String.class);
     }
     @GetMapping("/2")
     public List<ProductDTO> test2(){
         return keycloakRestTemplate
-                .getForObject("http://localhost:8085/products/all", ArrayList.class);
+                .getForObject("http://localhost:9999/DEMO-MAVEN/products/all", ArrayList.class);
     }
 
 }
