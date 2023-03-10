@@ -31,6 +31,9 @@ class KeycloakSecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/swagger-ui/**", "/javainuse-openapi/**").permitAll();
 
+        /*To permit h2*/
+        http.headers().frameOptions().disable();
+
         http.authorizeRequests().antMatchers("/clients/**").hasAuthority(("ADMIN_ROLE"));
         http.authorizeRequests().antMatchers("/products/**").hasAuthority(("USER_ROLE"));
         http.authorizeRequests().antMatchers("/test/**").hasAuthority(("USER_ROLE"));
