@@ -5,9 +5,12 @@ import lombok.AllArgsConstructor;
 import org.keycloak.adapters.springsecurity.client.KeycloakRestTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.security.RolesAllowed;
 
 @RestController
 @RequestMapping("/test")
@@ -23,6 +26,7 @@ public class TestController {
         return new ResponseEntity<>(message, HttpStatus.ACCEPTED);
     }
 
+    //@RolesAllowed({"ADMIN_ROLE", "USER_ROLE"})
     @GetMapping("/1")
     public ResponseEntity<String> test1(){
         ResponseEntity<String> testMessage=null;
@@ -34,8 +38,9 @@ public class TestController {
         }
         return testMessage;
     }
-    @GetMapping
-    public ResponseEntity<String> test(){
+    //@RolesAllowed("ADMIN_ROLE")
+    @GetMapping("/3")
+    public ResponseEntity<String> test3(){
         ResponseEntity<String> testMessage=serviceClient.getTestMessage();
         return testMessage;
     }

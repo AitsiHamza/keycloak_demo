@@ -36,7 +36,7 @@ class KeycloakSecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
 
         http.authorizeRequests().antMatchers("/clients/**").hasAuthority(("ADMIN_ROLE"));
         http.authorizeRequests().antMatchers("/products/**").hasAuthority(("USER_ROLE"));
-        http.authorizeRequests().antMatchers("/test/**").hasAuthority(("USER_ROLE"));
+        http.authorizeRequests().antMatchers("/test").hasAuthority("USER_ROLE");
 
     }
 }
