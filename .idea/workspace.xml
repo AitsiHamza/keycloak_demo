@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="58fef8c2-8b60-4305-bbf5-f4845ec33424" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_keycloak_openfeign/src/main/java/com/example/demo_keycloak_openfeign/configuration/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_keycloak_openfeign/src/main/java/com/example/demo_keycloak_openfeign/configuration/FeignConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_keycloak_openfeign/src/main/java/com/example/demo_keycloak_openfeign/configuration/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_keycloak_openfeign/src/main/java/com/example/demo_keycloak_openfeign/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
